@@ -30,13 +30,15 @@ public class TwoDArrays {
 				{22, 44, 55},
 				{4, 6, 8, 10},
 		};
-		
+		int sumOfRow3 = 0;
 		for(int row = 0; row < c.length; row++) {
 			for(int col = 0; col < c[row].length; col++) {
-				System.out.print(c[row][col]);
+				sumOfRow3 = sumOfRow3 + c[2][col];
+				//System.out.print(c[row][col]);
+				break;
 			}
-			System.out.println();
-		}
+			//System.out.println();
+		}System.out.println(sumOfRow3);
 	}
 	
 	
