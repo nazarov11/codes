@@ -4,8 +4,8 @@ public class teamTask {
 	public static void main(String[] args) {
 		
 		int x, y;
-		x = 43;
-		y = 67;
+		x = 20;
+		y = 15;
 		x = x + y;// x = 35
 		y = x - y;// y = 20
 		x = x - y; // x = 15

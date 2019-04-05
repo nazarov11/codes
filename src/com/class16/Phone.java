@@ -33,7 +33,7 @@ public class Phone {
 		System.out.println("Unlock type: Face ID");
 		}
 		else {
-			System.out.println("Unlock type: Finger print");
+			System.out.println("Unlock type: Fingerprint");
 		}
 	}
 	void portraitMode() {
